@@ -20,7 +20,9 @@ The client takes as parameters:
 
 # minitalk_bonus part
 
-A small reception acknowledgment system was add to mandatory part.
+A small reception acknowledgment system was added to mandatory part.
 Supports Unicode characters
 
 ![client2](https://user-images.githubusercontent.com/83021442/125605636-157db784-e4aa-4830-b060-80a8011fe3aa.jpeg)
+
+Detailed information is in en.subject_minitalk.pdf.
