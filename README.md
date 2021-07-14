@@ -1,4 +1,4 @@
-minitalk_mandatory part
+# minitalk_mandatory part
 
 Creating a communication program in the form of a client and server.
 The server is launched first, and after being launched it displays its PID.
@@ -18,7 +18,7 @@ The client takes as parameters:
 ![server2](https://user-images.githubusercontent.com/83021442/125605587-4e8dbabe-854e-40c7-9d85-fbf4f6972e68.jpeg)
 
 
-#minitalk_bonus part
+# minitalk_bonus part
 
 A small reception acknowledgment system was add to mandatory part.
 Supports Unicode characters
