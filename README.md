@@ -23,6 +23,6 @@ The client takes as parameters:
 A small reception acknowledgment system was added to mandatory part.
 Supports Unicode characters
 
-![client2](https://user-images.githubusercontent.com/83021442/125605636-157db784-e4aa-4830-b060-80a8011fe3aa.jpeg).  
+![client2](https://user-images.githubusercontent.com/83021442/125605636-157db784-e4aa-4830-b060-80a8011fe3aa.jpeg)  
 
 Detailed information is in [en.subject_minitalk.pdf](https://github.com/lelle-asem/03_minitalk/blob/master/en.subject_minitalk.pdf)
