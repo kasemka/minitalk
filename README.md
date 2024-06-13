@@ -6,7 +6,7 @@ Creating a communication program between the client and the server. The client s
 
 The server is launched first, and after being launched it displays its PID.
 
-The client needs as arguments the server PID and the string that should be sent.
+The client needs as arguments the server PID and the string that should be sent (should be run in another terminal).
 
 Once the string has been received, the server displays it.
 
@@ -14,7 +14,7 @@ Communication between programs is done using UNIX signals.
 
 The server must be able to display big text pretty quickly.
 
-Server must be able to receive text from several clients in a row, without needing to be restarted.
+The server must be able to receive text from several clients in a row, without needing to be restarted.
 
 Communication is working by sending two signals (SIGUSR1 and SIGUSR2).
 
