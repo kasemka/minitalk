@@ -8,15 +8,11 @@ The server is launched first, and after being launched it displays its PID.
 
 The client needs as arguments the server PID and the text that should be sent (run in another terminal).
 
-Once the string has been received, the server displays it.
-
-Communication between programs is done using UNIX signals.
-
-The server must be able to display big text pretty quickly.
+Once the string has been received, the server displays it. The server must be able to display big text pretty quickly.
 
 The server must be able to receive text from several clients in a row, without needing to be restarted.
 
-Communication is working by sending two signals (SIGUSR1 and SIGUSR2).
+Communication is working by sending two signals: SIGUSR1 and SIGUSR2.
 
 ![server1](https://user-images.githubusercontent.com/83021442/125605557-292d29fb-b043-40db-9bea-06f7b2f9c2b1.jpeg)
 
