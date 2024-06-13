@@ -2,7 +2,7 @@
 
 Creating a communication program between the client and the server. The client sends text to the server, the server prints the text from client.
 
-###detailes
+### detailes
 
 The server is launched first, and after being launched it displays its PID.
 
