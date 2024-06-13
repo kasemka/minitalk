@@ -1,6 +1,6 @@
 ## minitalk
 
-Creating a communication program between the client and the server. The client sends text to the server, and the server prints it.
+Creating a communication program between the client and the server. The client sends the text to the server, and the server prints it.
 
 ### detailes
 
