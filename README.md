@@ -6,21 +6,17 @@ Creating a communication program between the client and the server. The client s
 
 The server is launched first, and after being launched it displays its PID.
 
-The client takes as parameters:
+The client needs as arguments the server PID and the string that should be sent.
 
-• The server PID.
+Once the string has been received, the server displays it.
 
-• The string that should be sent.
+Communication between programs is done using UNIX signals.
 
-• The client communicates the string passed as a parameter to the server. Once the string has been received, the server displays it.
+The server must be able to display big text pretty quickly.
 
-• Communication between programs is done using UNIX signals.
+Server must be able to receive text from several clients in a row, without needing to be restarted.
 
-• The server must be able to display the string pretty quickly.
-
-• Server receives strings from several clients in a row, without needing to be restarted.
-
-• Only two signals (SIGUSR1 and SIGUSR2) are used.
+Communication is working by sending two signals (SIGUSR1 and SIGUSR2).
 
 ![server1](https://user-images.githubusercontent.com/83021442/125605557-292d29fb-b043-40db-9bea-06f7b2f9c2b1.jpeg)
 
@@ -31,7 +27,7 @@ The client takes as parameters:
 
 ## minitalk bonus part
 
-A small reception acknowledgment system was added to mandatory part.
+A small reception acknowledgment system was added to the previous part.
 
 Supports Unicode characters
 
