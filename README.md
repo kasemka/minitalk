@@ -1,4 +1,4 @@
-## minitalk mandatory
+## minitalk
 
 Creating a communication program between the client and the server. The client sends text to the server, the server prints the text from client.
 
