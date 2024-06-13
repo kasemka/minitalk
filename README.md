@@ -6,7 +6,7 @@ Creating a communication program between the client and the server. The client s
 
 The server is launched first, and after being launched it displays its PID.
 
-The client needs as arguments the server PID and the string that should be sent (should be run in another terminal).
+The client needs as arguments the server PID and the text that should be sent (run in another terminal).
 
 Once the string has been received, the server displays it.
 
